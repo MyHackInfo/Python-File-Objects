@@ -1,0 +1,8 @@
+files=open('writefile.txt','a')
+print(files.tell())
+#print(files.seek(4))
+#print(files.isatty())
+#print(files.flush())
+#print(files.truncate())
+#print(files.fileno())
+files.close()
